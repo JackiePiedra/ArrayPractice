@@ -66,7 +66,12 @@ namespace ArrayPractice
 
             //in-class problems
             //declare and initialize a string array of first names. choose a name to find and print the IndexOf
-            string[] firstNames = { "Holly", "Gabrielle", "Mike", "Jackie" };
+            //string[] firstNames = { "Holly", "Gabrielle", "Mike", "Jackie" };
+            string[] firstNames = new string[5];
+            firstNames[0] = "Holly";
+            firstNames[1] = "Gabrielle";
+            firstNames[2] = "Mike";
+            firstNames[3] = "Jackie";
             Console.WriteLine(Array.IndexOf(firstNames, "Mike"));
 
             //create an array of lucky numbers. each should repeat at least once. 
